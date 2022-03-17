@@ -57,7 +57,7 @@ const Userdropdown = props => {
             <div ref={dropdown_content_el} className="dropdown__content">
                  {
                      <div>
-                         <Link>
+                         <Link to="/profile">
                         {isAuthenticated && (<div className="notification-item" onClick={console.log("ouch")}>
                    <i className={"bx bx-user"}></i>
                    <span>Profile</span>
