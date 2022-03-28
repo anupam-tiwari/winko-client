@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
+import { useHistory } from 'react-router'
 
 import Table from '../components/table/Table'
 
@@ -18,6 +19,7 @@ const customerTableHead = [
     'location',
     'registeration date',
 ]
+
 
 
 
